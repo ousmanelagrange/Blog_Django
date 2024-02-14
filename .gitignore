@@ -1,0 +1,50 @@
+# Ignore les fichiers générés par l'environnement virtuel
+env/
+venv3/
+
+# Ignore les fichiers spécifiques à Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore le dossier de configuration Django
+*.sqlite3
+db.sqlite3
+*.log
+
+# Ignore les fichiers générés par l'IDE (ajuster en fonction de votre IDE)
+.vscode/
+.idea/
+
+# Ignore les fichiers de configuration locale
+.env
+
+# Ignore les fichiers statiques générés par Django
+staticfiles/
+
+# Ignore les fichiers de médias téléchargés
+media/
+
+# Ignore les fichiers de sauvegarde
+*.bak
+
+# Ignore les fichiers de configuration pour Heroku
+Procfile
+requirements.txt
+runtime.txt
+
+# Ignore les fichiers de cache
+__pycache__/
+.cache/
+
+# Ignore les fichiers de test
+__test__/
+test_*
+
+# Ignore les fichiers de sauvegarde et les fichiers temporaires
+*.swp
+*~
+*.bak
+
+# Ignore le dossier d'environnement de développement
+.envrc
